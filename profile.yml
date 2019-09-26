@@ -1,0 +1,7 @@
+language:
+  name: "spanish"
+  code: "es-mexican"
+
+text-to-speech:
+  espeak:
+    voice: "es"
