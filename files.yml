@@ -24,9 +24,10 @@ default:
   base_dictionary.txt.gz:
     bytes: 1824883
     sha256: 08241ba28cb89eed45575e897754918ab70f62834701439002d9729e58720350
+    file-name: base_dictionary.txt
   profile.yml:
-    bytes: 455
-    sha256: 83bc4255a0e939f1d5fd641a7aaf588d0454bdb5ab8b3d04834f32e7bb260a7d
+    bytes: 494
+    sha256: 54de0b37b03b1d8b9e269a8da248df1d2f32a8dcf7340a4333a50fb514fd7b92
   slot_programs/rhasspy/number:
     bytes: 651
     sha256: d1f10ccea552c2c9ba2a59dd69705f8e82545592c7db5ca7078b462ed9d08387
@@ -36,27 +37,34 @@ default:
 
 # Files needed to guess word pronunciations
 grapheme-to-phoneme:
+  g2p.corpus.gz:
+    bytes: 75116
+    file-name: g2p.corpus
+    sha256: 1183b9455ea443113b26ee398590e193d2a76d5a3cf1390845b71a8ec162f190
   g2p.fst.gz:
     bytes: 2010314
     sha256: 8ca3d13386ec214288125543142ad5a87d9312ee8ae61de4f276823413b9f543
+    file-name: g2p.fst
 
 # Files needed for open transcription (pre-built model)
 open-transcription:
   base_language_model.txt.gz:
     bytes: 23391433
     sha256: 3a5426601c24eaaf6658734d078f6fed4bb1a38b6521f2feecf2bfa755e350b4
+    file-name: base_language_model.txt
 
 # Files needed for mixed language modeling (pre-built + custom)
 mixed-language-model:
   base_language_model.fst.gz:
     bytes: 25525538
     sha256: 74a0a00e4f1cceac02a058aaa0fc98e0c307c1a47296b392e769899695591fc2
+    file-name: base_language_model.fst
 
 # Files needed for text to speech
 text-to-speech:
   espeak_phonemes.txt:
-    bytes: 142
-    sha256: 67bc9f2f8797a99f9023d8368993ad30b6543eec6afbcfcbd744bf460bdb7718
+    bytes: 132
+    sha256: 4c1b68d0f40066bc670f4dce3b808f3371810fb293c0859cc00e127fafef040b
 
 # Sample sentences, etc.
 examples:
